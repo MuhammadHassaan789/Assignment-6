@@ -148,7 +148,87 @@ for (var i = 0; i < scores.length; i++) {
     }
 }
 
+//Q15//
+var array = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+for (var i = 0; i < array.length; i++) {
+    var newArray = array[i]
+    var line = ''
+    for (var j = 0; j < newArray.length; j++) {
+        line = line + newArray[j]
+    }
+    console.log(line)
+}
+
 
 //Q16//
+var num = prompt("Enter any positive number!")
+for (var i = num; i >= 0; i -= 0.5) {
+    console.log(i);
+  }
+
+//Q17//
+for(var i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i + ' is even')
+    }
+    else {
+        console.log(i + ' is odd')
+    }
+}
+
+//Q18//
+var product = 1;
+
+for (var i = 1; i <= 7; i += 2) {
+  product *= i;
+}
+
+console.log("Product of odd integers from 1 to 7:", product);
+
+//Q19//
+var initialStars = prompt("Enter the initial number of stars:")
+
+for (var i = initialStars; i >= 1; i--) {
+    var starLine = "";
+    for (var j = 1; j <= i; j++) {
+      starLine += "*";
+    }
+    console.log(starLine);
+  }
+
+//Q20//
+a
+
+var numberOfLinesA = prompt('Enter the number of lines for pattern')
+for (let i = 1; i <= numberOfLinesA; i++) {
+    let line = "";
+    for (let j = 1; j <= numberOfLinesA; j++) {
+      line += "*";
+    }
+    console.log(line);
+  }
+
+b
+
+var numberOfLinesB = prompt('Enter the number of lines for pattern')
+for (var i = 1; i <= numberOfLinesB; i++) {
+    var line = "";
+    for (var j = 1; j <= i; j++) {
+      line += "*";
+    }
+    console.log(line);
+  }
+
+c
+
+var initialStars = prompt("Enter the initial number of stars:")
+
+for (var i = initialStars; i >= 1; i--) {
+    var starLine = "";
+    for (var j = 1; j <= i; j++) {
+      starLine += "*";
+    }
+    console.log(starLine);
+  }
 
 
